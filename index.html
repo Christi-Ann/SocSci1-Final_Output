@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Philippine Trivia Generator</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav>
+		<!-- <a href="index.html">Generate a fact</a> -->
+		<a href="about.html">About the Author</a>
+	</nav>
+
+	<section class="trivia-card">
+		<h1 id="didYouKnow">DID YOU KNOW?</h1>
+
+		<p id="categoryText" hidden>
+			Category: 
+			<span id="triviaCategory"></span>
+		</p>
+
+		<h2 id="triviaTitle">
+			Generate a fact
+		</h2>
+
+		<p id="triviaFact">
+			Click the button to discover something about the Philippines.
+		</p>
+
+		<p id="triviaExplanation"></p>
+
+		<p id="sourceText" hidden>
+			<strong>Source: </strong>
+			<a id="sourceLink" href="#"></a>
+		</p>
+
+		<button id="generateButton">
+			Generate
+		</button>
+	</section>
+
+	<script src="data.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
