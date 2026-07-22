@@ -210,7 +210,8 @@ main p {
 	line-height: 1.8;
 	margin-bottom: 20px;
 	color: #555;
-	text-align: left;
+	text-align: justify;
+	/* text-indent: 2em; */
 }
 
 /* responsive design */
