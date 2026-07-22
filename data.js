@@ -193,7 +193,7 @@ facts = [
     "category": "Land and Sea",
     "title": "A Philippine marine passage is called the 'center of the center'",
     "fact": "The central Philippines, particularly the Verde Island Passage, is considered the 'center of the center of marine shore fish diversity.'",
-    "explanation": "Its internal waters contain the highest number of marine fish species recorded in the region.",
+    "explanation": "Its internal waters contain an exceptionally high number of marine fish species.",
     "sourceName": "Regional Studies in Marine Science",
     "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S2352485523000142"
   },
@@ -256,7 +256,7 @@ facts = [
     "category": "Culture",
     "title": "Bohol's traditional whole salt begins with coconut husks",
     "fact": "Asin tibuok is made by soaking coconut husks in seawater for months, drying and burning them, then mixing with seawater to create brine.",
-    "explanation": "The final product looks like a white egg inside a brown shell.",
+    "explanation": "The brine is boiled in clay pots until the salt is formed, producing something that resembles a white egg inside a brown shell.",
     "sourceName": "UNESCO Intangible Cultural Heritage",
     "sourceUrl": "https://ich.unesco.org/en/USL/the-practice-of-making-asin-tibuok-the-artisanal-sea-salt-of-the-boholano-of-bohol-island-philippines-02316"
   },
@@ -265,7 +265,7 @@ facts = [
     "category": "Art and Innovation",
     "title": "Ramon Barba left his mango technology royalty-free",
     "fact": "Ramon C. Barba did not collect royalties from his patented mango-flowering technology so ordinary farmers could use it freely.",
-    "explanation": "His potassium-nitrate method helped make mango flowering more controllable and less strictly seasonal.",
+    "explanation": "His method made mango flowering more controllable and less strictly seasonal.",
     "sourceName": "National Academy of Science and Technology, Philippines",
     "sourceUrl": "https://www.nast.dost.gov.ph/index.php/13-news-press-releases/110-academician-ramon-c-barba-named-as-national-scientist"
   }
