@@ -1,31 +1,33 @@
+let remainingIndexes = [];
 
-let previousIndex = -1;
+function shuffleFacts() {
+	remainingIndexes = facts.map((fact, index) => index);
+
+	for (let i = remainingIndexes.length - 1; i > 0; i--) {
+		const randomIndex = Math.floor(Math.random() * (i + 1));
+
+		[
+			remainingIndexes[i],
+			remainingIndexes[randomIndex]
+		] = [
+			remainingIndexes[randomIndex],
+			remainingIndexes[i]
+		];
+	}
+}
 
 function generateTrivia() {
-	let randomIndex;
+	if (remainingIndexes.length === 0) {
+		shuffleFacts();
+	}
 
-	do {
-		randomIndex = Math.floor(Math.random() * facts.length);
-	} while (
-		randomIndex === previousIndex &&
-		facts.length > 1
-	);
+	const factIndex = remainingIndexes.pop();
+	const trivia = facts[factIndex];
 
-	previousIndex = randomIndex;
-
-	const trivia = facts[randomIndex];
-
-	document.getElementById("triviaCategory").textContent =
-		trivia.category;
-
-	document.getElementById("triviaTitle").textContent =
-		trivia.title;
-
-	document.getElementById("triviaFact").textContent =
-		trivia.fact;
-
-	document.getElementById("triviaExplanation").textContent =
-		trivia.explanation;
+	document.getElementById("triviaCategory").textContent = trivia.category;
+	document.getElementById("triviaTitle").textContent = trivia.title;
+	document.getElementById("triviaFact").textContent = trivia.fact;
+	document.getElementById("triviaExplanation").textContent = trivia.explanation;
 
 	const sourceText = document.getElementById("sourceText");
 	const categoryText = document.getElementById("categoryText");
@@ -40,8 +42,12 @@ function generateTrivia() {
 	sourceText.hidden = false;
 }
 
+shuffleFacts();
+
 const generateButton =
 	document.getElementById("generateButton");
 
-generateButton.addEventListener("click", generateTrivia);
-console.log("test");
+generateButton.addEventListener(
+	"click",
+	generateTrivia
+);
