@@ -3,7 +3,7 @@ facts = [
     "id": 1,
     "category": "People and Heroes",
     "title": "Bonifacio performed in Tagalog plays",
-    "fact": "Before becoming the Supremo, Andres Bonifacio appeared in Tagalog plays under Teatro Porvenir in Trozo.",
+    "fact": "Andres Bonifacio appeared in Tagalog plays under Teatro Porvenir in Trozo.",
     "explanation": "The NHCP historical marker at his birthplace states that he appeared in Tagalog plays under Teatro Porvenir.",
     "sourceName": "National Historical Commission of the Philippines",
     "sourceUrl": "https://philhistoricsites.nhcp.gov.ph/registry_database/andres-bonifacio-1863-1897/"
