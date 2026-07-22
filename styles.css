@@ -149,6 +149,29 @@ nav a:hover {
 	transform: translateY(0);
 }
 
+/* call to action */
+.call-to-action {
+	max-width: 600px;
+	margin: 40px auto 0;
+	padding: 20px;
+	text-align: center;
+}
+
+.call-to-action h2 {
+	color: #FCD116;
+	font-size: 1.3em;
+	margin-bottom: 10px;
+	font-weight: 600;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.call-to-action p {
+	font-size: 0.95em;
+	line-height: 1.5;
+	color: rgba(255, 255, 255, 0.9);
+	font-style: italic;
+}
+
 /* about */
 main {
 	max-width: 700px;
